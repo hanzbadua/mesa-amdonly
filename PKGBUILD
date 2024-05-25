@@ -147,7 +147,7 @@ build() {
         -D b_ndebug=true
         -D b_pch=false
         -D b_lto=false
-        -D buildtype=custom
+        -D buildtype=release
         -D dri3=enabled
         -D egl=enabled
         -D gallium-drivers=radeonsi,swrast,zink

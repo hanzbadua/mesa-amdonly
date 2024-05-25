@@ -107,7 +107,7 @@ build() {
         -D b_lto=false \
         -D android-strict=false \
         -D android-libbacktrace=disabled \
-        -D buildtype=custom \
+        -D buildtype=release \
         -D platforms=x11,wayland \
         -D gallium-drivers=radeonsi,swrast,zink \
         -D dri3=enabled \
