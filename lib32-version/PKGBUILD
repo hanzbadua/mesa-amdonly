@@ -17,11 +17,11 @@ pkgver=0
 pkgrel=1
 arch=('x86_64')
 makedepends=('lib32-llvm' 'python-mako' 'lib32-libxml2' 'xorgproto'
-             'lib32-libvdpau' 'git' 'lib32-libglvnd' 'wayland-protocols' 
+             'lib32-libvdpau' 'git' 'glslang' 'lib32-libglvnd' 'wayland-protocols' 
              'meson' 'lib32-libva' 'lib32-libxrandr' 'python-packaging')
 depends=('mesa-amdonly' 'lib32-llvm-libs' 'lib32-gcc-libs' 'lib32-libdrm' 'lib32-wayland' 'lib32-libxxf86vm'
          'lib32-libxdamage' 'lib32-libxshmfence' 'lib32-libelf' 'lib32-libunwind' 
-         'lib32-lm_sensors' 'glslang' 'lib32-vulkan-icd-loader' 'lib32-zstd'
+         'lib32-lm_sensors' 'lib32-vulkan-icd-loader' 'lib32-zstd'
          'lib32-libxcb' 'lib32-libxfixes' 'lib32-expat' 'lib32-libxext' 'lib32-libx11'
          'lib32-zlib' 'lib32-glibc'
 )
