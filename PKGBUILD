@@ -53,7 +53,6 @@ makedepends=(
     'spirv-llvm-translator'
     'spirv-tools'
     'systemd-libs'
-    'valgrind'
     'vulkan-icd-loader'
     'wayland'
     'wayland-protocols'
