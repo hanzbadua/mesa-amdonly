@@ -189,6 +189,7 @@ build() {
         -D rust_std=2021
         -D shader-cache=enabled
         -D shared-glapi=enabled
+        -D strip=true
         -D valgrind=disabled
         -D video-codecs=all
         -D vulkan-beta=true
