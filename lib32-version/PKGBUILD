@@ -101,7 +101,7 @@ conflicts=(
 )
 url="https://www.mesa3d.org"
 license=('custom')
-source=('mesa::git+https://gitlab.freedesktop.org/mesa/mesa.git#branch=24.1' 'LICENSE' 'llvm32.native')
+source=('mesa::git+https://gitlab.freedesktop.org/mesa/mesa.git#branch=main' 'LICENSE' 'llvm32.native')
 sha256sums=('SKIP' 'SKIP' 'SKIP')
 options=(!lto !debug)
 
