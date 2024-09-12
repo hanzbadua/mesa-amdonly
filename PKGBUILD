@@ -161,12 +161,10 @@ build() {
         -D b_pch=false
         -D b_lto=false
         -D buildtype=release
-        -D dri3=enabled
         -D egl=enabled
         -D gallium-drivers=radeonsi,swrast,zink
         -D gallium-extra-hud=true
         -D gallium-nine=true
-        -D gallium-omx=bellagio
         -D gallium-opencl=disabled
         -D gallium-rusticl=true
         -D gallium-va=enabled
@@ -177,7 +175,7 @@ build() {
         -D gles2=enabled
         -D glvnd=enabled
         -D glx=dri
-        -D intel-clc=auto
+        -D intel-clc=disabled
         -D intel-rt=disabled
         -D libunwind=enabled
         -D llvm=enabled
