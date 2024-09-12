@@ -175,7 +175,7 @@ build() {
         -D gles2=enabled
         -D glvnd=enabled
         -D glx=dri
-        -D intel-clc=disabled
+        -D intel-clc=enabled
         -D intel-rt=disabled
         -D libunwind=enabled
         -D llvm=enabled
