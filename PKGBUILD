@@ -177,12 +177,13 @@ build() {
         -D glx=dri
         -D intel-clc=enabled
         -D intel-rt=disabled
+        -D legacy-x11=dri2
         -D libunwind=enabled
         -D llvm=enabled
         -D lmsensors=enabled
         -D microsoft-clc=disabled
         -D osmesa=true
-        -D platforms=wayland
+        -D platforms=x11,wayland
         -D rust_std=2021
         -D shader-cache=enabled
         -D shared-glapi=enabled
