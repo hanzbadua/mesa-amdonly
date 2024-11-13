@@ -182,7 +182,7 @@ build() {
         -D lmsensors=enabled
         -D microsoft-clc=disabled
         -D osmesa=true
-        -D platforms=x11,wayland
+        -D platforms=wayland
         -D rust_std=2021
         -D shader-cache=enabled
         -D shared-glapi=enabled
