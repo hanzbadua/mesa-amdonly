@@ -163,7 +163,7 @@ build() {
         -D android-strict=false \
         -D android-libbacktrace=disabled \
         -D buildtype=release \
-        -D platforms=x11,wayland \
+        -D platforms=wayland \
         -D gallium-drivers=radeonsi,softpipe,llvmpipe,zink \
         -D egl=enabled \
         -D gallium-extra-hud=true \
