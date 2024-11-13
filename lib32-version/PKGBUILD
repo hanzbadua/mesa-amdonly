@@ -163,7 +163,7 @@ build() {
         -D android-strict=false \
         -D android-libbacktrace=disabled \
         -D buildtype=release \
-        -D platforms=wayland \
+        -D platforms=x11,wayland \
         -D gallium-drivers=radeonsi,softpipe,llvmpipe,zink \
         -D egl=enabled \
         -D gallium-extra-hud=true \
@@ -179,6 +179,7 @@ build() {
         -D glx=dri \
         -D intel-clc=enabled \
         -D intel-rt=disabled \
+        -D legacy-x11=dri2 \
         -D libunwind=enabled \
         -D llvm=enabled \
         -D lmsensors=enabled \
