@@ -1,6 +1,6 @@
 # Mesa - modern AMD GPUs only, latest commit
 
-Modified versions of [mesa-git (AUR)](https://aur.archlinux.org/packages/mesa-git) and [lib32-mesa-git (AUR)](https://aur.archlinux.org/packages/lib32-mesa-git), but only with support for modern AMD gpus (`radeonsi`) and compiled using branch `main`, and also Wayland-only (no X11 support built)
+Modified versions of [mesa-git (AUR)](https://aur.archlinux.org/packages/mesa-git) and [lib32-mesa-git (AUR)](https://aur.archlinux.org/packages/lib32-mesa-git), but only with support for modern AMD gpus (`radeonsi`) and compiled using branch `main`
 
 Additionally compiles with `-O3 -march=native` optimizations and alongside the appropriate AMD OpenGL + Vulkan drivers, also comes with the software rasterizer (`swrast`) and `zink` for OpenGL on Vulkan
 
